@@ -104,6 +104,7 @@ gtag('config', 'UA-87186208-51', { 'anonymize_ip': true });
 
 <!-- CODE :: Stylesheets -->
 <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800,300italic,400italic,600italic,700italic,800italic|Roboto:300,400,700|Roboto+Condensed:300,400,500,600,700' rel='stylesheet' type='text/css' />
+<link rel="stylesheet" href="assets/css/radio-canada.css?<?php echo filemtime('assets/css/radio-canada.css'); ?>" />
 <link rel="stylesheet" href="assets/css/style.css?<?php echo filemtime('assets/css/style.css'); ?>" />
 <!-- /CODE :: Stylesheets -->
 
