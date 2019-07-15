@@ -176,8 +176,7 @@ bunkerRequire(['jquery', 'services/componentsService', 'underscore'], function(j
 
 
 <!-- CODE :: Javascripts -->
-<script type="text/javascript" src="assets/js/lightbox.js?<?php echo filemtime('assets/js/lightbox.js'); ?>"></script>
-<script type="text/javascript" src="assets/js/share.js?<?php echo filemtime('assets/js/share.js'); ?>"></script>
+<script type="text/javascript" src="assets/js/scripts.js?<?php echo filemtime('assets/js/scripts.js'); ?>"></script>
 <!-- /CODE :: Javascripts -->
 
 
