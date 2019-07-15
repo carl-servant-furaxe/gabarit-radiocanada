@@ -102,3 +102,6 @@ html #src-content:before, body #src-content:before, html #src-content:after, bod
 #src-container div > :last-child{ margin-bottom: 0; }
 #src-container *{ box-sizing: border-box; }
 #src-container p{ line-height: inherit; }
+
+#sponsored{ background-color: #ccc; font-size: 12px; font-weight: normal; line-height: 1; text-align: center; text-transform: uppercase; position: relative; z-index: 3; }
+#sponsored .inner{ padding: 6px 5px 5px 5px; }
