@@ -95,6 +95,9 @@ html.screen-medium #src-content, body.screen-medium #src-content{ visibility: vi
 html #src-content, body #src-content{ min-width: 0; }
 html #src-content:before, body #src-content:before, html #src-content:after, body #src-content:after{ display: block; }
 
+html #src-header, body #src-header{ display: none !important; }
+html #src-header-responsive, body #src-header-responsive{ display: block !important; }
+
 /**
  * BASICS
 **/
@@ -105,3 +108,4 @@ html #src-content:before, body #src-content:before, html #src-content:after, bod
 
 #sponsored{ background-color: #ccc; font-size: 12px; font-weight: normal; line-height: 1; text-align: center; text-transform: uppercase; position: relative; z-index: 3; }
 #sponsored .inner{ padding: 6px 5px 5px 5px; }
+#pixel{ left: -9999em; position: fixed; top: -9999em; }

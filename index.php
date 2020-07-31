@@ -5,12 +5,12 @@
 
 
 <!-- CODE :: Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-87186208-51&api=1"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-XXXXXXXX-XX&api=1"></script>
 <script>
 window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
-gtag('config', 'UA-87186208-51', { 'anonymize_ip': true });
+gtag('config', 'UA-XXXXXXXX-XX', { 'anonymize_ip': true });
 </script>
 <!-- /CODE :: Google Analytics -->
 
@@ -91,6 +91,7 @@ gtag('config', 'UA-87186208-51', { 'anonymize_ip': true });
 	<script src='https://s.radio-canada.ca/_js/modules/pub.fixnav.js'></script>
 	<script type="text/javascript" src="https://s.radio-canada.ca/mp/viafoura.js"></script>
 	<script type="text/javascript" src="https://s.radio-canada.ca/mp/modules.socialbar.executer.6.0.js"></script>
+	<script type="text/javascript" src="https://s.radio-canada.ca/webtrends/js/webtrends.1.0.0.js"></script>
 
 	<meta name="apple-mobile-web-app-capable" content="yes" />
 	<meta name="apple-mobile-web-app-status-bar-style" content="black" />
@@ -116,9 +117,7 @@ gtag('config', 'UA-87186208-51', { 'anonymize_ip': true });
 
 
 <!-- CODE :: Pixel de reciblage -->
-<div id="pixel">
-	<img src="http://lien-vers-le-pixel.jpg" alt="" height="1" width="1" />
-</div>
+<div id="pixel"></div>
 <!-- /CODE :: Pixel de reciblage -->
 
 
